@@ -37,3 +37,35 @@ setTimer(function()
     end
     outputDebugString("Saved player data to database")
 end, 300000, 0) -- Save every 5 minutes
+
+-- Login/Register events
+addEvent("onPlayerAttemptLogin", true)
+addEventHandler("onPlayerAttemptLogin", root, function(username, password)
+    if verifyAccount(username, password) then
+        local data = loadPlayerData(username)
+        if data then
+            playerData[client].money = data.money
+            playerData[client].score = data.score
+            playerData[client].admin = data.admin
+            playerData[client].loggedIn = true
+            
+            givePlayerMoney(client, data.money)
+            triggerClientEvent(client, "onPlayerLoginSuccess", client)
+            outputChatBox("Successfully logged in as "..username, client, 0, 255, 0)
+        else
+            triggerClientEvent(client, "onPlayerLoginError", client, "Failed to load account data")
+        end
+    else
+        triggerClientEvent(client, "onPlayerLoginError", client, "Invalid username or password")
+    end
+end)
+
+addEvent("onPlayerAttemptRegister", true)
+addEventHandler("onPlayerAttemptRegister", root, function(username, password)
+    if createAccount(username, password) then
+        triggerClientEvent(client, "onPlayerRegisterSuccess", client)
+        outputChatBox("Account created successfully! You can now login with /login", client, 0, 255, 0)
+    else
+        triggerClientEvent(client, "onPlayerRegisterError", client, "Failed to create account")
+    end
+end)
