@@ -9,7 +9,7 @@ function showLoginWindow()
         local x = (screenWidth - windowWidth) / 2
         local y = (screenHeight - windowHeight) / 2
         
-        loginWindow = guiCreateWindow(x, y, windowWidth, windowHeight, "ACNR Login", false)
+        loginWindow = guiCreateWindow(x, y, windowWidth,, windowHeight, "ACNR Login", false)
         guiWindowSetSizable(loginWindow, false)
         
         guiCreateLabel(10, 30, windowWidth-20, 20, "Username:", false, loginWindow)
@@ -90,4 +90,30 @@ addEventHandler("onClientGUIClick", root, function()
     if not loginWindow and not registerWindow then
         showCursor(false)
     end
+end)
+
+-- Login/Register event handlers
+addEvent("onPlayerLoginSuccess", true)
+addEventHandler("onPlayerLoginSuccess", root, function()
+    showCursor(false)
+    outputChatBox("Login successful! Welcome to ACNR!", 0, 255, 0)
+end)
+
+addEvent("onPlayerLoginError", true)
+addEventHandler("onPlayerLoginError", root, function(error)
+    outputChatBox("Login failed: "..error, 255, 0, 0)
+    showLoginWindow()
+end)
+
+addEvent("onPlayerRegisterSuccess", true)
+addEventHandler("onPlayerRegisterSuccess", root, function()
+    showCursor(false)
+    outputChatBox("Registration successful! You can now login.", 0, 255, 0)
+    showLoginWindow()
+end)
+
+addEvent("onPlayerRegisterError", true)
+addEventHandler("onPlayerRegisterError", root, function(error)
+    outputChatBox("Registration failed: "..error, 255, 0, 0)
+    showRegisterWindow()
 end)
