@@ -1,1 +1,51 @@
 
+<meta>
+    <info author="Converted from ACNR-OPENMP" type="gamemode" name="ACNR MTA" version="1.0.0" description="Converted ACNR game mode for MTA:SA"/>
+    
+    <!-- Main scripts -->
+    <script src="server/main.lua" type="server" cache="false"/>
+    <script src="server/player.lua" type="server" cache="false"/>
+    <script src="server/vehicle.lua" type="server" cache="false"/>
+    <script src="server/house.lua" type="server" cache="false"/>
+    <script src="server/faction.lua" type="server" cache="false"/>
+    <script src="server/admin.lua" type="server" cache="false"/>
+    <script src="server/database.lua" type="server" cache="false"/>
+    
+    <script src="client/main.lua" type="client" cache="false"/>
+    <script src="client/gui.lua" type="client" cache="false"/>
+    <script src="client/hud.lua" type="client" cache="false"/>
+    
+    <!-- Shared utilities -->
+    <script src="shared/utils.lua" type="shared" cache="false"/>
+    <script src="shared/config.lua" type="shared" cache="false"/>
+    
+    <!-- Configuration files -->
+    <config src="config/settings.xml" type="server" cache="false"/>
+    <config src="config/vehicles.xml" type="server" cache="false"/>
+    <config src="config/houses.xml" type="server" cache="false"/>
+    
+    <!-- Map files -->
+    <map src="maps/main.map" dimension="0"/>
+    
+    <!-- Database files -->
+    <export function="executeSQL" type="server"/>
+    <export function="getConnection" type="server"/>
+    
+    <!-- Required resources -->
+    <include resource="mysql"/>
+    <include resource="scoreboard"/>
+    <include resource="mapmanager"/>
+    
+    <settings>
+        <setting name="*mysql_host" value="localhost"/>
+        <setting name="*mysql_user" value="root"/>
+        <setting name="*mysql_pass" value=""/>
+        <setting name="*mysql_db" value="acnr_mta"/>
+        <setting name="*spawn_x" value="1958.33"/>
+        <setting name="*spawn_y" value="-1684.97"/>
+        <setting name="*spawn_z" value="13.54"/>
+        <setting name="*spawn_angle" value="269.15"/>
+        <setting name="*starting_money" value="5000"/>
+        <setting name="*max_players" value="100"/>
+    </settings>
+</meta>
