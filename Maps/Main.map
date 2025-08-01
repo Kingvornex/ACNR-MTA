@@ -1,1 +1,53 @@
-
+<?xml version="1.0" encoding="utf-16"?>
+<map edf:definitions="editor_main.edf">
+    <!-- Main Spawn Point -->
+    <spawnpoint id="spawnpoint1" posX="1958.33" posY="-1684.97" posZ="13.54" rotation="269.15" />
+    
+    <!-- Alternative Spawn Points -->
+    <spawnpoint id="spawnpoint2" posX="2040.00" posY="-1680.00" posZ="13.50" rotation="90.00" />
+    <spawnpoint id="spawnpoint3" posX="2100.00" posY="-1680.00" posZ="13.50" rotation="90.00" />
+    <spawnpoint id="spawnpoint4" posX="1950.00" posY="-1720.00" posZ="13.50" rotation="0.00" />
+    <spawnpoint id="spawnpoint5" posX="1900.00" posY="-1680.00" posZ="13.50" rotation="270.00" />
+    
+    <!-- Vehicle Spawns -->
+    <vehicle id="vehicle1" model="400" posX="1960.00" posY="-1670.00" posZ="13.50" rotation="90.00" />
+    <vehicle id="vehicle2" model="401" posX="1970.00" posY="-1670.00" posZ="13.50" rotation="90.00" />
+    <vehicle id="vehicle3" model="404" posX="1980.00" posY="-1670.00" posZ="13.50" rotation="90.00" />
+    <vehicle id="vehicle4" model="405" posX="1990.00" posY="-1670.00" posZ="13.50" rotation="90.00" />
+    <vehicle id="vehicle5" model="410" posX="2000.00" posY="-1670.00" posZ="13.50" rotation="90.00" />
+    
+    <!-- Objects for Decoration -->
+    <object id="object1" model="1337" posX="1950.00" posY="-1700.00" posZ="14.00" rotX="0.00" rotY="0.00" rotZ="0.00" />
+    <object id="object2" model="1338" posX="1960.00" posY="-1710.00" posZ="14.00" rotX="0.00" rotY="0.00" rotZ="0.00" />
+    <object id="object3" model="1339" posX="1970.00" posY="-1720.00" posZ="14.00" rotX="0.00" rotY="0.00" rotZ="0.00" />
+    
+    <!-- Markers for Important Locations -->
+    <marker id="marker1" type="checkpoint" color="#FF0000" size="2.00" posX="1958.33" posY="-1684.97" posZ="13.54" />
+    <marker id="marker2" type="ring" color="#00FF00" size="3.00" posX="2000.00" posY="-1700.00" posZ="13.50" />
+    <marker id="marker3" type="cylinder" color="#0000FF" size="4.00" posX="2050.00" posY="-1750.00" posZ="13.50" />
+    
+    <!-- Pickups for Items -->
+    <pickup id="pickup1" type="health" posX="1950.00" posY="-1680.00" posZ="13.50" />
+    <pickup id="pickup2" type="armor" posX="1960.00" posY="-1690.00" posZ="13.50" />
+    <pickup id="pickup3" type="health" posX="1970.00" posY="-1700.00" posZ="13.50" />
+    
+    <!-- Blips for Navigation -->
+    <blip id="blip1" icon="56" posX="1958.33" posY="-1684.97" posZ="13.50" size="2" color="1" />
+    <blip id="blip2" icon="30" posX="2000.00" posY="-1700.00" posZ="13.50" size="2" color="2" />
+    <blip id="blip3" icon="27" posX="2050.00" posY="-1750.00" posZ="13.50" size="2" color="3" />
+    
+    <!-- Colshapes for Areas -->
+    <colshape id="colshape1" type="sphere" posX="1958.33" posY="-1684.97" posZ="13.50" radius="10.00" />
+    <colshape id="colshape2" type="cube" posX="2000.00" posY="-1700.00" posZ="13.50" width="20.00" depth="20.00" height="10.00" />
+    <colshape id="colshape3" type="tube" posX="2050.00" posY="-1750.00" posZ="13.50" radius="15.00" height="20.00" />
+    
+    <!-- Labels for Information -->
+    <label id="label1" posX="1958.33" posY="-1684.97" posZ="15.00" text="Main Spawn" color="#FFFFFF" />
+    <label id="label2" posX="2000.00" posY="-1700.00" posZ="15.00" text="Vehicle Spawn" color="#00FF00" />
+    <label id="label3" posX="2050.00" posY="-1750.00" posZ="15.00" text="Safe Zone" color="#0000FF" />
+    
+    <!-- Radar Areas for Zones -->
+    <radararea id="radararea1" posX="1900.00" posY="-1800.00" width="200" height="200" color="#FF000064" />
+    <radararea id="radararea2" posX="2100.00" posY="-1600.00" width="150" height="150" color="#00FF0064" />
+    <radararea id="radararea3" posX="1800.00" posY="-1500.00" width="100" height="100" color="#0000FF64" />
+</map>
