@@ -1,1 +1,132 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<houses>
+    <!-- Small Houses -->
+    <house id="1" name="Small House 1" x="1950.00" y="-1700.00" z="15.00" price="50000" interior="1" />
+    <house id="2" name="Small House 2" x="1960.00" y="-1710.00" z="15.00" price="55000" interior="2" />
+    <house id="3" name="Small House 3" x="1970.00" y="-1720.00" z="15.00" price="60000" interior="3" />
+    <house id="4" name="Small House 4" x="1980.00" y="-1730.00" z="15.00" price="65000" interior="4" />
+    <house id="5" name="Small House 5" x="1990.00" y="-1740.00" z="15.00" price="70000" interior="5" />
+    <house id="6" name="Small House 6" x="2000.00" y="-1750.00" z="15.00" price="75000" interior="1" />
+    <house id="7" name="Small House 7" x="2010.00" y="-1760.00" z="15.00" price="80000" interior="2" />
+    <house id="8" name="Small House 8" x="2020.00" y="-1770.00" z="15.00" price="85000" interior="3" />
+    <house id="9" name="Small House 9" x="2030.00" y="-1780.00" z="15.00" price="90000" interior="4" />
+    <house id="10" name="Small House 10" x="2040.00" y="-1790.00" z="15.00" price="95000" interior="5" />
+    
+    <!-- Medium Houses -->
+    <house id="11" name="Medium House 1" x="2050.00" y="-1800.00" z="15.00" price="100000" interior="1" />
+    <house id="12" name="Medium House 2" x="2060.00" y="-1810.00" z="15.00" price="110000" interior="2" />
+    <house id="13" name="Medium House 3" x="2070.00" y="-1820.00" z="15.00" price="120000" interior="3" />
+    <house id="14" name="Medium House 4" x="2080.00" y="-1830.00" z="15.00" price="130000" interior="4" />
+    <house id="15" name="Medium House 5" x="2090.00" y="-1840.00" z="15.00" price="140000" interior="5" />
+    <house id="16" name="Medium House 6" x="2100.00" y="-1850.00" z="15.00" price="150000" interior="1" />
+    <house id="17" name="Medium House 7" x="2110.00" y="-1860.00" z="15.00" price="160000" interior="2" />
+    <house id="18" name="Medium House 8" x="2120.00" y="-1870.00" z="15.00" price="170000" interior="3" />
+    <house id="19" name="Medium House 9" x="2130.00" y="-1880.00" z="15.00" price="180000" interior="4" />
+    <house id="20" name="Medium House 10" x="2140.00" y="-1890.00" z="15.00" price="190000" interior="5" />
+    
+    <!-- Large Houses -->
+    <house id="21" name="Large House 1" x="2150.00" y="-1900.00" z="15.00" price="200000" interior="1" />
+    <house id="22" name="Large House 2" x="2160.00" y="-1910.00" z="15.00" price="220000" interior="2" />
+    <house id="23" name="Large House 3" x="2170.00" y="-1920.00" z="15.00" price="240000" interior="3" />
+    <house id="24" name="Large House 4" x="2180.00" y="-1930.00" z="15.00" price="260000" interior="4" />
+    <house id="25" name="Large House 5" x="2190.00" y="-1940.00" z="15.00" price="280000" interior="5" />
+    <house id="26" name="Large House 6" x="2200.00" y="-1950.00" z="15.00" price="300000" interior="1" />
+    <house id="27" name="Large House 7" x="2210.00" y="-1960.00" z="15.00" price="320000" interior="2" />
+    <house id="28" name="Large House 8" x="2220.00" y="-1970.00" z="15.00" price="340000" interior="3" />
+    <house id="29" name="Large House 9" x="2230.00" y="-1980.00" z="15.00" price="360000" interior="4" />
+    <house id="30" name="Large House 10" x="2240.00" y="-1990.00" z="15.00" price="380000" interior="5" />
+    
+    <!-- Luxury Houses -->
+    <house id="31" name="Luxury House 1" x="2250.00" y="-2000.00" z="15.00" price="400000" interior="1" />
+    <house id="32" name="Luxury House 2" x="2260.00" y="-2010.00" z="15.00" price="450000" interior="2" />
+    <house id="33" name="Luxury House 3" x="2270.00" y="-2020.00" z="15.00" price="500000" interior="3" />
+    <house id="34" name="Luxury House 4" x="2280.00" y="-2030.00" z="15.00" price="550000" interior="4" />
+    <house id="35" name="Luxury House 5" x="2290.00" y="-2040.00" z="15.00" price="600000" interior="5" />
+    <house id="36" name="Luxury House 6" x="2300.00" y="-2050.00" z="15.00" price="650000" interior="1" />
+    <house id="37" name="Luxury House 7" x="2310.00" y="-2060.00" z="15.00" price="700000" interior="2" />
+    <house id="38" name="Luxury House 8" x="2320.00" y="-2070.00" z="15.00" price="750000" interior="3" />
+    <house id="39" name="Luxury House 9" x="2330.00" y="-2080.00" z="15.00" price="800000" interior="4" />
+    <house id="40" name="Luxury House 10" x="2340.00" y="-2090.00" z="15.00" price="850000" interior="5" />
+    
+    <!-- Mansions -->
+    <house id="41" name="Mansion 1" x="2350.00" y="-2100.00" z="15.00" price="900000" interior="1" />
+    <house id="42" name="Mansion 2" x="2360.00" y="-2110.00" z="15.00" price="950000" interior="2" />
+    <house id="43" name="Mansion 3" x="2370.00" y="-2120.00" z="15.00" price="1000000" interior="3" />
+    <house id="44" name="Mansion 4" x="2380.00" y="-2130.00" z="15.00" price="1100000" interior="4" />
+    <house id="45" name="Mansion 5" x="2390.00" y="-2140.00" z="15.00" price="1200000" interior="5" />
+    <house id="46" name="Mansion 6" x="2400.00" y="-2150.00" z="15.00" price="1300000" interior="1" />
+    <house id="47" name="Mansion 7" x="2410.00" y="-2160.00" z="15.00" price="1400000" interior="2" />
+    <house id="48" name="Mansion 8" x="2420.00" y="-2170.00" z="15.00" price="1500000" interior="3" />
+    <house id="49" name="Mansion 9" x="2430.00" y="-2180.00" z="15.00" price="1600000" interior="4" />
+    <house id="50" name="Mansion 10" x="2440.00" y="-2190.00" z="15.00" price="1700000" interior="5" />
+    
+    <!-- Beach Houses -->
+    <house id="51" name="Beach House 1" x="300.00" y="-1800.00" z="5.00" price="600000" interior="1" />
+    <house id="52" name="Beach House 2" x="320.00" y="-1820.00" z="5.00" price="650000" interior="2" />
+    <house id="53" name="Beach House 3" x="340.00" y="-1840.00" z="5.00" price="700000" interior="3" />
+    <house id="54" name="Beach House 4" x="360.00" y="-1860.00" z="5.00" price="750000" interior="4" />
+    <house id="55" name="Beach House 5" x="380.00" y="-1880.00" z="5.00" price="800000" interior="5" />
+    
+    <!-- City Apartments -->
+    <house id="56" name="City Apartment 1" x="1200.00" y="-900.00" z="20.00" price="80000" interior="1" />
+    <house id="57" name="City Apartment 2" x="1210.00" y="-910.00" z="20.00" price="85000" interior="2" />
+    <house id="58" name="City Apartment 3" x="1220.00" y="-920.00" z="20.00" price="90000" interior="3" />
+    <house id="59" name="City Apartment 4" x="1230.00" y="-930.00" z="20.00" price="95000" interior="4" />
+    <house id="60" name="City Apartment 5" x="1240.00" y="-940.00" z="20.00" price="100000" interior="5" />
+    
+    <!-- Suburban Houses -->
+    <house id="61" name="Suburban House 1" x="1800.00" y="-1400.00" z="15.00" price="120000" interior="1" />
+    <house id="62" name="Suburban House 2" x="1820.00" y="-1420.00" z="15.00" price="130000" interior="2" />
+    <house id="63" name="Suburban House 3" x="1840.00" y="-1440.00" z="15.00" price="140000" interior="3" />
+    <house id="64" name="Suburban House 4" x="1860.00" y="-1460.00" z="15.00" price="150000" interior="4" />
+    <house id="65" name="Suburban House 5" x="1880.00" y="-1480.00" z="15.00" price="160000" interior="5" />
+    
+    <!-- Country Houses -->
+    <house id="66" name="Country House 1" x="100.00" y="-300.00" z="10.00" price="200000" interior="1" />
+    <house id="67" name="Country House 2" x="120.00" y="-320.00" z="10.00" price="220000" interior="2" />
+    <house id="68" name="Country House 3" x="140.00" y="-340.00" z="10.00" price="240000" interior="3" />
+    <house id="69" name="Country House 4" x="160.00" y="-360.00" z="10.00" price="260000" interior="4" />
+    <house id="70" name="Country House 5" x="180.00" y="-380.00" z="10.00" price="280000" interior="5" />
+    
+    <!-- Mountain Houses -->
+    <house id="71" name="Mountain House 1" x="-2200.00" y="-2300.00" z="30.00" price="300000" interior="1" />
+    <house id="72" name="Mountain House 2" x="-2220.00" y="-2320.00" z="30.00" price="320000" interior="2" />
+    <house id="73" name="Mountain House 3" x="-2240.00" y="-2340.00" z="30.00" price="340000" interior="3" />
+    <house id="74" name="Mountain House 4" x="-2260.00" y="-2360.00" z="30.00" price="360000" interior="4" />
+    <house id="75" name="Mountain House 5" x="-2280.00" y="-2380.00" z="30.00" price="380000" interior="5" />
+    
+    <!-- Desert Houses -->
+    <house id="76" name="Desert House 1" x="2000.00" y="1500.00" z="10.00" price="150000" interior="1" />
+    <house id="77" name="Desert House 2" x="2020.00" y="1520.00" z="10.00" price="160000" interior="2" />
+    <house id="78" name="Desert House 3" x="2040.00" y="1540.00" z="10.00" price="170000" interior="3" />
+    <house id="79" name="Desert House 4" x="2060.00" y="1560.00" z="10.00" price="180000" interior="4" />
+    <house id="80" name="Desert House 5" x="2080.00" y="1580.00" z="10.00" price="190000" interior="5" />
+    
+    <!-- Special Houses -->
+    <house id="81" name="Penthouse 1" x="1500.00" y="-1000.00" z="50.00" price="2000000" interior="1" />
+    <house id="82" name="Penthouse 2" x="1520.00" y="-1020.00" z="50.00" price="2200000" interior="2" />
+    <house id="83" name="Penthouse 3" x="1540.00" y="-1040.00" z="50.00" price="2400000" interior="3" />
+    <house id="84" name="Penthouse 4" x="1560.00" y="-1060.00" z="50.00" price="2600000" interior="4" />
+    <house id="85" name="Penthouse 5" x="1580.00" y="-1080.00" z="50.00" price="2800000" interior="5" />
+    
+    <!-- Villa Houses -->
+    <house id="86" name="Villa 1" x="900.00" y="-1200.00" z="20.00" price="1500000" interior="1" />
+    <house id="87" name="Villa 2" x="920.00" y="-1220.00" z="20.00" price="1600000" interior="2" />
+    <house id="88" name="Villa 3" x="940.00" y="-1240.00" z="20.00" price="1700000" interior="3" />
+    <house id="89" name="Villa 4" x="960.00" y="-1260.00" z="20.00" price="1800000" interior="4" />
+    <house id="90" name="Villa 5" x="980.00" y="-1280.00" z="20.00" price="1900000" interior="5" />
+    
+    <!-- Condos -->
+    <house id="91" name="Condo 1" x="800.00" y="-800.00" z="25.00" price="400000" interior="1" />
+    <house id="92" name="Condo 2" x="810.00" y="-810.00" z="25.00" price="420000" interior="2" />
+    <house id="93" name="Condo 3" x="820.00" y="-820.00" z="25.00" price="440000" interior="3" />
+    <house id="94" name="Condo 4" x="830.00" y="-830.00" z="25.00" price="460000" interior="4" />
+    <house id="95" name="Condo 5" x="840.00" y="-840.00" z="25.00" price="480000" interior="5" />
+    
+    <!-- Lofts -->
+    <house id="96" name="Loft 1" x="1100.00" y="-700.00" z="30.00" price="600000" interior="1" />
+    <house id="97" name="Loft 2" x="1110.00" y="-710.00" z="30.00" price="620000" interior="2" />
+    <house id="98" name="Loft 3" x="1120.00" y="-720.00" z="30.00" price="640000" interior="3" />
+    <house id="99" name="Loft 4" x="1130.00" y="-730.00" z="30.00" price="660000" interior="4" />
+    <house id="100" name="Loft 5" x="1140.00" y="-740.00" z="30.00" price="680000" interior="5" />
+</houses>
