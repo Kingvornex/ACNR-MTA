@@ -1,1 +1,101 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <!-- Server Settings -->
+    <setting name="server_name" value="ACNR MTA" />
+    <setting name="server_description" value="Converted ACNR game mode for Multi Theft Auto" />
+    <setting name="server_version" value="1.0.0" />
+    <setting name="max_players" value="100" />
+    <setting name="server_password" value="" />
+    
+    <!-- Database Settings -->
+    <setting name="db_type" value="sqlite" />
+    <setting name="db_host" value="localhost" />
+    <setting name="db_port" value="3306" />
+    <setting name="db_user" value="root" />
+    <setting name="db_pass" value="" />
+    <setting name="db_name" value="acnr_mta" />
+    <setting name="db_auto_backup" value="true" />
+    <setting name="db_backup_interval" value="3600" />
+    <setting name="db_cleanup_interval" value="86400" />
+    
+    <!-- Game Settings -->
+    <setting name="starting_money" value="5000" />
+    <setting name="starting_skin" value="0" />
+    <setting name="spawn_health" value="100" />
+    <setting name="spawn_armor" value="0" />
+    <setting name="death_respawn_time" value="3000" />
+    <setting name="max_houses_per_player" value="3" />
+    <setting name="max_vehicles_per_player" value="5" />
+    <setting name="vehicle_respawn_time" value="30000" />
+    <setting name="house_enter_radius" value="5" />
+    <setting name="vehicle_park_radius" value="10" />
+    <setting name="chat_radius" value="20" />
+    <setting name="admin_chat_radius" value="0" />
+    <setting name="faction_chat_radius" value="0" />
+    <setting name="enable_voice_chat" value="false" />
+    <setting name="enable_minimap" value="true" />
+    <setting name="enable_radar" value="true" />
+    <setting name="enable_hud" value="true" />
+    <setting name="enable_vehicle_hud" value="true" />
+    
+    <!-- Spawn Settings -->
+    <setting name="spawn_x" value="1958.33" />
+    <setting name="spawn_y" value="-1684.97" />
+    <setting name="spawn_z" value="13.54" />
+    <setting name="spawn_angle" value="269.15" />
+    
+    <!-- Economy Settings -->
+    <setting name="house_sell_ratio" value="0.7" />
+    <setting name="vehicle_repair_cost" value="500" />
+    <setting name="vehicle_sell_ratio" value="0.6" />
+    <setting name="faction_create_cost" value="10000" />
+    <setting name="kill_money_min" value="100" />
+    <setting name="kill_money_max" value="500" />
+    <setting name="payday_interval" value="3600" />
+    <setting name="payday_amount" value="100" />
+    <setting name="vip_payday_multiplier" value="2" />
+    <setting name="admin_payday_multiplier" value="1.5" />
+    
+    <!-- Security Settings -->
+    <setting name="enable_anticheat" value="true" />
+    <setting name="max_login_attempts" value="3" />
+    <setting name="login_timeout" value="300" />
+    <setting name="password_min_length" value="6" />
+    <setting name="password_max_length" value="32" />
+    <setting name="username_min_length" value="3" />
+    <setting name="username_max_length" value="20" />
+    <setting name="enable_ip_ban" value="true" />
+    <setting name="enable_serial_ban" value="true" />
+    <setting name="enable_account_ban" value="true" />
+    <setting name="log_commands" value="true" />
+    <setting name="log_connections" value="true" />
+    <setting name="log_disconnections" value="true" />
+    <setting name="log_admin_actions" value="true" />
+    
+    <!-- Performance Settings -->
+    <setting name="max_objects" value="500" />
+    <setting name="max_vehicles" value="200" />
+    <setting name="max_peds" value="100" />
+    <setting name="max_markers" value="50" />
+    <setting name="max_pickups" value="100" />
+    <setting name="max_blips" value="200" />
+    <setting name="max_colshapes" value="100" />
+    <setting name="max_labels" value="100" />
+    <setting name="max_radar_areas" value="50" />
+    <setting name="streaming_distance" value="300" />
+    <setting name="lod_distance" value="500" />
+    <setting name="draw_distance" value="300" />
+    <setting name="update_interval" value="50" />
+    
+    <!-- Debug Settings -->
+    <setting name="debug_enabled" value="false" />
+    <setting name="debug_level" value="1" />
+    <setting name="debug_log_to_file" value="true" />
+    <setting name="debug_log_to_console" value="true" />
+    <setting name="debug_log_to_chat" value="false" />
+    <setting name="debug_show_fps" value="false" />
+    <setting name="debug_show_memory" value="false" />
+    <setting name="debug_show_network_stats" value="false" />
+    <setting name="debug_show_player_stats" value="false" />
+</settings>
